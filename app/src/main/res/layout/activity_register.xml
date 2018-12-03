@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@color/colorPrimary">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:padding="20sp"
+        android:layout_width="200sp"
+        android:layout_height="150sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="105dp"
+        app:srcCompat="@drawable/livechat" />
+
+
+    <EditText
+        android:id="@+id/emailreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        android:background="@drawable/edit_text_style"
+        android:ems="15"
+        android:hint="Insert Email"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/passwordreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Insert Password"
+        android:background="@drawable/edit_text_style"
+        android:layout_below="@+id/emailreg"
+        android:layout_marginTop="25sp"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+
+        />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="Register"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button_style"
+        android:layout_below="@+id/passwordreg"
+        android:layout_marginTop="50sp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <LinearLayout
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have account?"
+            android:textColor="@color/colorText"
+            />
+
+        <TextView
+            android:id="@+id/logintext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:layout_marginLeft="10sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="14sp"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

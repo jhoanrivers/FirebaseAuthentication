@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "797610193869",
+    "firebase_url": "https://chatapplication-80609.firebaseio.com",
+    "project_id": "chatapplication-80609",
+    "storage_bucket": "chatapplication-80609.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797610193869:android:6983b920b1251f46",
+        "android_client_info": {
+          "package_name": "com.example.jhoanrivers.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797610193869-qetf8rl2d7qpnjtb80oolali32s1hslg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jhoanrivers.chatapp",
+            "certificate_hash": "bae90b2d2a960c61a429e5e055bb7c8336bf4c71"
+          }
+        },
+        {
+          "client_id": "797610193869-kqc6ignq1etj0tb0hg5vkpv3n2ob91h6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu9WS98ngQ-3ZRg4a6YySPdWQkME3B5rw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797610193869-kqc6ignq1etj0tb0hg5vkpv3n2ob91h6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797610193869:android:ced81b42101b1188",
+        "android_client_info": {
+          "package_name": "com.example.jhoanrivers.firstproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797610193869-kqc6ignq1etj0tb0hg5vkpv3n2ob91h6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu9WS98ngQ-3ZRg4a6YySPdWQkME3B5rw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

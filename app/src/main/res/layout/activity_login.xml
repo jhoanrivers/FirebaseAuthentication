@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@color/colorPrimary">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:padding="20sp"
+        android:layout_width="200sp"
+        android:layout_height="150sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="105dp"
+        app:srcCompat="@drawable/livechat" />
+
+
+        <TextView
+            android:id="@+id/txv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome To LiveChat Application"
+            android:layout_below="@+id/image"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:ems="13"
+            android:textColor="@color/colorTitle"
+            />
+
+        <TextView
+            android:id="@+id/txv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please sign in to start application"
+            android:layout_marginTop="40sp"
+            android:layout_below="@+id/txv_1"
+            android:textColor="@color/colorText"
+            android:layout_centerHorizontal="true"
+            android:ems="16"
+
+            />
+
+
+    <EditText
+        android:id="@+id/emailtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txv_2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/edit_text_style"
+        android:ems="16"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/passwordtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailtxt"
+        android:layout_alignStart="@+id/emailtxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edit_text_style"
+        android:ems="16"
+        android:textSize="14sp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="40sp"
+        android:layout_below="@+id/passwordtxt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="9dp"
+        android:background="@drawable/button_style"
+        android:text="Sign In"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp" />
+
+
+    <ProgressBar
+        android:id="@+id/determinateBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="5sp"
+        android:max="100"
+        android:progress="25"
+        android:progressDrawable="@drawable/progressbar_style"
+        />
+
+ <LinearLayout
+     android:layout_width="200sp"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:layout_centerHorizontal="true"
+     android:layout_alignParentBottom="true"
+     android:layout_marginBottom="30sp"
+     >
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="New on LiveChat?   "
+         android:textColor="@color/colorText"
+         />
+
+     <TextView
+         android:id="@+id/registertxt"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Sign Up"
+         android:layout_centerHorizontal="true"
+         android:paddingTop="20sp"
+         android:textSize="14sp"
+         android:textColor="@color/colorAccent"
+         android:textStyle="bold"
+         />
+
+ </LinearLayout>
+
+
+</RelativeLayout>
